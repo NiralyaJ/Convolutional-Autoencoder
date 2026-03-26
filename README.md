@@ -109,8 +109,8 @@ def train(model, loader, criterion, optimizer, epochs=5):
 train_losses = train(model, train_loader, criterion, optimizer, epochs=5)
 
 # Plot training loss
-print('Name: Ramitha Chowdary S')
-print('Register Number: 212224240130')
+print('Name: Niralya J')
+print('Register Number: 212224230188')
 plt.plot(train_losses, label='Training Loss')
 plt.xlabel('Epoch')
 plt.ylabel('Loss')
@@ -133,8 +133,8 @@ def visualize_denoising(model, loader, num_images=10):
     noisy_images = noisy_images.cpu().numpy()
     outputs = outputs.cpu().numpy()
 
-    print('Name: Ramitha Chowdary S')
-    print('Register Number: 212224240130')
+    print('Name: Niralya J')
+    print('Register Number: 212224230188')
     plt.figure(figsize=(18, 6))
     for i in range(num_images):
         ax = plt.subplot(3, num_images, i + 1)
